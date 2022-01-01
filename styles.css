@@ -53,7 +53,7 @@
     .firstsection{
         height: 90vh;
         
-        background-image:url(images/DSC_0115.JPG);
+
         opacity: 0.85;
         background-position: center;
         background-size: cover;
@@ -194,7 +194,7 @@ margin-top: 35px;
 }
 
 .logoimg{
-    animation: changeShape 1s infinite alternate;
+    animation: changeShape;
 }
     @keyframes changeShape {
         from{
@@ -262,7 +262,7 @@ margin-top: 35px;
         height:90vh;
         width: 100%;
         box-shadow: 2px 2px 25px 15px  red;
-        animation:slider 10s infinite alternate-reverse;
+        animation:slider 2s infinite alternate-reverse;
         transition: all;
     }
     @keyframes slider {
